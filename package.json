@@ -1,0 +1,32 @@
+{
+  "name": "wangeditor-plugin-var",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/variable.umd.js",
+  "module": "./dist/variable.esm.js",
+  "dependencies": {
+    "snabbdom": "^3.5.1",
+    "vue": "^3.2.45"
+  },
+  "peerDependencies": {
+    "@wangeditor/editor": "^5.1.23"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.4",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "eslint": "^8.22.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "prettier": "^2.7.1",
+    "vite": "^4.0.0"
+  }
+}

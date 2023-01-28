@@ -1,0 +1,20 @@
+.plugin-var-list {
+  text-align: left;
+}
+.plugin-var-list .var-item {
+  font-size: 12px;
+  cursor: pointer;
+  padding: 3px 5px;
+  margin: 4px;
+  display: inline-block;
+}
+.plugin-var-list .var-item:hover {
+  background-color: #f1f1f1;
+}
+
+.plugin-var-node::before {
+  content: '`';
+}
+.plugin-var-node::after {
+  content: '`';
+}
