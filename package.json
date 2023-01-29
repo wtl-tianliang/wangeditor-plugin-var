@@ -9,7 +9,7 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "files": [
-    "dist"
+    "dist/*"
   ],
   "main": "./dist/variable.umd.js",
   "module": "./dist/variable.esm.js",
